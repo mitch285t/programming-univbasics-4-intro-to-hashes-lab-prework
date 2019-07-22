@@ -17,7 +17,8 @@ end
 
 def my_hash_creator(key, value)
   myhash = {}
-  return myhash[key] = value
+  myhash[key] = value
+  return myhash
 end
 
 def read_from_hash(hash, key)
